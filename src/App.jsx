@@ -9,14 +9,14 @@ import GetInTouch from "./components/GetInTouch";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/personal-portfolio">
       <TopNav />
       <Routes>
-        <Route path="/personal-portfolio" element={<Home />} />
-        <Route path="/personal-portfolio/work-experience" element={<WorkExperience />} />
-        <Route path="/personal-portfolio/projects" element={<Projects />} />
-        <Route path="/personal-portfolio/recent-works" element={<RecentWorks />} />
-        <Route path="/personal-portfolio/get-in-touch" element={<GetInTouch />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/work-experience" element={<WorkExperience />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/recent-works" element={<RecentWorks />} />
+        <Route path="/get-in-touch" element={<GetInTouch />} />
       </Routes>
     </Router>
   );
