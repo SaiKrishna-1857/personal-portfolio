@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SaiKrishna-1857/personal-portfolio/static/css/main.497ff7a5.css",
+    "main.js": "/SaiKrishna-1857/personal-portfolio/static/js/main.c68d610a.js",
+    "static/media/profile-picture.png": "/SaiKrishna-1857/personal-portfolio/static/media/profile-picture.9ca472e7ca46b0648e97.png",
+    "static/media/SaiKrishna-Sangeetha-Resume.pdf": "/SaiKrishna-1857/personal-portfolio/static/media/SaiKrishna-Sangeetha-Resume.ffe0cc659d5ff4d5d3d0.pdf",
+    "static/media/agwise-logo.png": "/SaiKrishna-1857/personal-portfolio/static/media/agwise-logo.395f7348b4d64dcdb719.png",
+    "static/media/ucf-logo.png": "/SaiKrishna-1857/personal-portfolio/static/media/ucf-logo.73d39fa56eb5bb27832f.png",
+    "static/media/freshworks-logo-white.png": "/SaiKrishna-1857/personal-portfolio/static/media/freshworks-logo-white.ec846aefc506cf874829.png",
+    "index.html": "/SaiKrishna-1857/personal-portfolio/index.html",
+    "main.497ff7a5.css.map": "/SaiKrishna-1857/personal-portfolio/static/css/main.497ff7a5.css.map",
+    "main.c68d610a.js.map": "/SaiKrishna-1857/personal-portfolio/static/js/main.c68d610a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.497ff7a5.css",
+    "static/js/main.c68d610a.js"
+  ]
+}
