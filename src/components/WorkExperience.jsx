@@ -9,7 +9,9 @@ function WorkExperience() {
     <div className={styles.timeline}>
       <div className={styles.timelineItem}>
         <div className={styles.agwiseLogoWrapper}>
-          <img src={agwiseLogo} alt="AgWise Logo" className={styles.agwiseLogo} />
+          <a href="https://www.agwise.io/" target="_blank" rel="noopener noreferrer">
+            <img src={agwiseLogo} alt="AgWise Logo" className={styles.agwiseLogo} />
+          </a>
           <p className={styles.agwiseLocation}>St Petersburg, FL</p>
         </div>
         <div className={styles.experienceDetails}>
@@ -35,7 +37,9 @@ function WorkExperience() {
 
       <div className={styles.timelineItem}>
         <div className={styles.ucfLogoWrapper}>
-          <img src={ucfLogo} alt="UCF Logo" className={styles.ucfLogo} />
+          <a href="https://www.ucf.edu/" target="_blank" rel="noopener noreferrer">
+            <img src={ucfLogo} alt="UCF Logo" className={styles.ucfLogo} />
+          </a>
           <p className={styles.location}>Orlando, FL</p>
         </div>
         <div className={styles.experienceDetails}>
@@ -55,7 +59,9 @@ function WorkExperience() {
 
       <div className={styles.timelineItem}>
         <div className={styles.freshworksLogoWrapper}>
-          <img src={freshworksLogo} alt="Freshworks Logo" className={styles.freshworksLogo} />
+          <a href="https://www.freshworks.com/" target="_blank" rel="noopener noreferrer">
+            <img src={freshworksLogo} alt="Freshworks Logo" className={styles.freshworksLogo} />
+          </a>
           <p className={styles.location}>Chennai, India</p>
         </div>
         <div className={styles.experienceDetails}>
