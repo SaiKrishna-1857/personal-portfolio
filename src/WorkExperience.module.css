@@ -1,0 +1,110 @@
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  .timelineItem {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border: 2px solid #343434; 
+    border-radius: 16px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 60px;
+  }
+  
+  .timelineItem:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .agwiseLogoWrapper {
+    position: absolute;
+    left: -140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .ucfLogoWrapper {
+    position: absolute;
+    left: -135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .freshworksLogoWrapper {
+    position: absolute;
+    left: -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .agwiseLogo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .ucfLogo {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .freshworksLogo {
+    width: 140px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .agwiseLocation {
+    font-size: 0.9em;
+    color: #999;
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  .location {
+    font-size: 0.9em;
+    color: #999;
+    text-align: center;
+  }
+  
+  .experienceDetails {
+    margin-left: 40px;
+    flex: 1;
+  }
+  
+  .jobTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .companyName {
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
+  .jobDescription {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ccc;
+  }
+  

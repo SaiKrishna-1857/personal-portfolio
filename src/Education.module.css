@@ -18,12 +18,19 @@
   .educationItem {
     display: flex;
     align-items: center; 
-    border: 2px solid #ddd; 
+    border: 2px solid #343434; 
     padding: 20px; 
     border-radius: 16px; 
-    background-color: #080808; 
-    width: 100%; 
+    background-color: #1b1b1b; 
+    width: 100%;
     min-height: 200px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .educationItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.7);
   }
   
   .logoUcfWrapper {
