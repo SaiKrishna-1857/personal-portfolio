@@ -10,9 +10,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #080808; /* Set the global background color */
+  background-color: #080808;
   font-family: IBM Plex Mono, -apple-system, Roboto, Helvetica, sans-serif;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #080808; /* Ensure the root container has the correct background */
+  background-color: #080808;
   margin: 0;
 }
   
@@ -28,9 +28,9 @@ html, body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: #080808; /* Set the background color to match the rest of the layout */
+  background-color: #080808;
   width: 100%;
-  min-height: 100vh; /* Ensure it covers the full viewport height */
+  min-height: 100vh;
 }
 
 .mainContent {
@@ -39,9 +39,9 @@ html, body {
   flex-direction: column;
   max-width: 100%;
   padding: 0 80px 45px 80px;
-  margin: 0 auto; /* Center the content and remove any extra margins */
-  flex-grow: 1; /* Ensure this takes up available space */
-  justify-content: center; /* Center the content vertically */
+  margin: 0 auto; 
+  flex-grow: 1;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
@@ -65,20 +65,20 @@ html, body {
   z-index: 1000;
   border-radius: 0 0 8px 8px;
   box-sizing: border-box;
-  height: 80px; /* Large height for the navigation bar */
+  height: 80px;
 }
 
 .topMenu {
   display: flex;
-  align-items: stretch; /* Ensure items stretch to the full height of the nav bar */
-  gap: 20px; /* Spacing between the buttons */
-  height: 100%; /* Full height for the menu container */
+  align-items: stretch; 
+  gap: 20px;
+  height: 100%;
 }
 
 .menuItem {
   display: flex;
-  align-items: center; /* Center the button content vertically */
-  height: 100%; /* Ensure the menu item takes up the full height */
+  align-items: center;
+  height: 100%;
 }
 
 .navButton {
@@ -93,7 +93,7 @@ html, body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 0;
-  height: 100%; /* Full height for the button */
+  height: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -130,7 +130,7 @@ html, body {
   align-self: center;
   margin-top: 80px;
   max-width: 100%;
-  padding: 0 20px; /* Add padding inside the section */
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -272,8 +272,8 @@ html, body {
   line-height: normal;
   width: 39%;
   margin-left: 20px;
-  flex: 1; /* Allow it to grow and shrink */
-  max-width: 100%; /* Prevent the image column from overflowing */
+  flex: 1; 
+  max-width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -284,7 +284,6 @@ html, body {
 
 .heroImage {
   aspect-ratio: 1;
-  /* object-fit: cover; Better fit for the container */
   max-width: 100%;
   width: 350px;
   height: auto;
@@ -312,10 +311,10 @@ html, body {
 
 .clientLogosContainer {
   display: flex;
-  gap: 20px; /* Space between logos */
-  justify-content: start; /* Align logos to the left */
-  align-items: center; /* Vertically center logos */
-  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
   margin-top: 20px;
 }
 
@@ -323,15 +322,15 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* Set a consistent height for the wrappers */
-  width: 150px; /* Set a consistent width for the wrappers */
+  height: 100px;
+  width: 150px;
   padding: 10px;
 }
 
 .clientLogo {
-  max-height: 100%; /* Scale logo to fit within the height of the wrapper */
-  max-width: 100%; /* Scale logo to fit within the width of the wrapper */
-  object-fit: contain; /* Ensure the logo maintains its aspect ratio */
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .agwiseLogoWrapper a {
@@ -340,13 +339,13 @@ html, body {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 3px;
-  height: 160px; /* Set the wrapper height to auto to adapt to the logo size */
-  width: auto;  /* Set the wrapper width to auto */
+  height: 160px;
+  width: auto;
 }
 
 .agwiseLogoWrapper .clientLogo {
-  width: 200px; /* Set a specific width for the AgWise logo */
-  height: auto; /* Maintain the aspect ratio */
+  width: 200px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -355,14 +354,14 @@ html, body {
   justify-content: center;
   align-items: center;
   padding-top: 13px;
-  height: 53px; /* Set the wrapper height to auto to adapt to the logo size */
-  width: auto;  /* Set the wrapper width to auto */
+  height: 53px;
+  width: auto;
   padding-left: 30px;
 }
 
 .ucfLogoWrapper .clientLogo {
-  width: 200px; /* Set a specific width for the UCF logo */
-  height: auto; /* Maintain the aspect ratio */
+  width: 200px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -371,14 +370,14 @@ html, body {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  height: auto; /* Set the wrapper height to auto to adapt to the logo size */
-  width: auto;  /* Set the wrapper width to auto */
+  height: auto;
+  width: auto;
   padding-left: 50px;
 }
 
 .freshworksLogoWrapper .clientLogo {
-  width: 200px; /* Set a specific width for the Freshworks logo */
-  height: auto; /* Maintain the aspect ratio */
+  width: 200px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -405,5 +404,5 @@ html, body {
   padding: 20px 0;
   text-align: center;
   color: #fff;
-  margin-top: auto; /* Ensure the footer stays at the bottom */
+  margin-top: auto;
 }

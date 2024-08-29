@@ -1,0 +1,83 @@
+.educationWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #080808;
+  }
+  
+  .educationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 80%;
+    padding: 20px;
+  }
+  
+  .educationItem {
+    display: flex;
+    align-items: center; 
+    border: 2px solid #ddd; 
+    padding: 20px; 
+    border-radius: 16px; 
+    background-color: #080808; 
+    width: 100%; 
+    min-height: 200px;
+  }
+  
+  .logoUcfWrapper {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoUcf {
+    width: 110px; 
+    height: auto; 
+    object-fit: contain;
+  }
+  
+  .logoSastraWrapper {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+
+  .logoSastra {
+    width: 80px; 
+    height: auto; 
+    object-fit: contain;
+  }
+  
+  .universityDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .universityName {
+    margin: 0;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .details {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #ccc;
+  }
+  
+  .additionalInfo {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #999;
+  }
+  
+  .additionalInfo p {
+    margin: 5px 0;
+  }
