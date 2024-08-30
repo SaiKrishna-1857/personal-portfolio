@@ -66,6 +66,7 @@ html, body {
   border-radius: 0 0 8px 8px;
   box-sizing: border-box;
   height: 80px;
+  font-family: Hubbali, -apple-system, Roboto, Helvetica, sans-serif;
 }
 
 .topMenu {
