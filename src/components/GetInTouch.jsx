@@ -1,7 +1,7 @@
 import React from "react";
 
 function GetInTouch() {
-  return <div>Work in Progress!</div>;
+  return <div>Contact Page</div>;
 }
 
 export default GetInTouch;

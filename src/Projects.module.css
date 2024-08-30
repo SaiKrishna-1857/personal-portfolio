@@ -48,7 +48,7 @@
     color: #cccccc;
     margin-bottom: 20px;
     flex-grow: 1;
-    overflow: hidden; /* Hide overflow to maintain uniform card size */
+    overflow: hidden;
 }
 
 .projectButton {
@@ -60,7 +60,7 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
     text-align: center;
-    margin-top: auto; /* Ensure the button stays at the bottom */
+    margin-top: auto;
 }
 
 .projectButton:hover {

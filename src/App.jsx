@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TopNav from "./components/TopNav";
 import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
-import RecentWorks from "./components/RecentWorks";
-import GetInTouch from "./components/GetInTouch";
+import GetInTouch from "./components/AboutMe";
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <TopNav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about-me" element={<AboutMe />} />
         <Route path="/education" element={<Education />} />
         <Route path="/work-experience" element={<WorkExperience />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/recent-works" element={<RecentWorks />} />
         <Route path="/get-in-touch" element={<GetInTouch />} />
       </Routes>
     </Router>

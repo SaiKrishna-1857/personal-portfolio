@@ -11,6 +11,9 @@ function TopNav() {
           <Link to="/" className={styles.navButton}>Home</Link>
         </li>
         <li className={styles.menuItem}>
+          <Link to="/about-me" className={styles.navButton}>About Me</Link>
+        </li>
+        <li className={styles.menuItem}>
           <Link to="/education" className={styles.navButton}>Education</Link>
         </li>
         <li className={styles.menuItem}>
@@ -18,9 +21,6 @@ function TopNav() {
         </li>
         <li className={styles.menuItem}>
           <Link to="/projects" className={styles.navButton}>Projects</Link>
-        </li>
-        <li className={styles.menuItem}>
-          <Link to="/recent-works" className={styles.navButton}>Recent Works</Link>
         </li>
         <li className={styles.menuItem}>
           <a href={resumeFile} target="_blank" rel="noopener noreferrer"  className={styles.navButton}>Resume</a>

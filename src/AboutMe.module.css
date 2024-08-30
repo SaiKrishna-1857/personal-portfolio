@@ -1,0 +1,51 @@
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    border-radius: 16px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aboutSection, .interestsSection, .skillsSection, .hobbiesSection, .certificationsSection {
+    margin-bottom: 40px;
+}
+
+.aboutSection h2, .interestsSection h2, .skillsSection h2, .hobbiesSection h2, .certificationsSection h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #6c63ff;
+    text-align: center;
+}
+
+.aboutDescription, .interestsDescription {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #cccccc;
+}
+
+.skillsList, .hobbiesList, .certificationsList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skillsList li, .hobbiesList li, .certificationsList li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skillsList li:hover, .hobbiesList li:hover, .certificationsList li:hover {
+    background-color: #444;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skillsSection, .hobbiesSection, .certificationsSection {
+    text-align: left;
+}

@@ -2,11 +2,17 @@ import React from "react";
 import styles from "../Projects.module.css";
 import project1Image from "../assets/foliar.png";
 import project2Image from "../assets/ci-score.png";
-import project3Image from "../assets/haney-ai.png";
+import project3Image from "../assets/haneyAI.png";
 import project4Image from "../assets/chatBot.png";
 import project5Image from "../assets/deep-nn.png";
 import project6Image from "../assets/nlp-project.png";
 import project7Image from "../assets/CV-project.png";
+import project8Image from "../assets/Market-Basket-Analysis.png";
+import project9Image from "../assets/cache-simulator.png";
+import project10Image from "../assets/release-process-automation.png";
+import project11Image from "../assets/RCA-report.png";
+import project12Image from "../assets/automated_report_covergae.png";
+import project13Image from "../assets/automated_ci.png";
 
 function Projects() {
   return (
@@ -78,15 +84,82 @@ function Projects() {
       </div>
 
       <div className={styles.projectCard}>
-        <img src={project7Image} alt="CV-Vision Transformer" className={styles.projectImage} />
+        <img src={project7Image} alt="CV-Vision Transformers" className={styles.projectImage} />
         <h3 className={styles.projectTitle}>Enhancing Vision Transformers for Image Classification</h3>
         <p className={styles.projectDescription}>
-          This project focuses on the enhancement of Vision Transformers for image classification tasks. It explores the Infused Adapter by Inhibiting and Amplifying Inner Activations (IA3) technique for fine-tuning Vision Transformers, particularly for image classification.
+          It explores the Infused Adapter by Inhibiting and Amplifying Inner Activations (IA3) technique for fine-tuning Vision Transformers, particularly for image classification.
         </p>
         <a href="https://github.com/SaiKrishna-1857/NLP-Abusive-Comments-Identification" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
           GitHub
         </a>
       </div>
+
+      <div className={styles.projectCard}>
+        <img src={project8Image} alt="Market Basket Analysis" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Market Basket Analysis</h3>
+        <p className={styles.projectDescription}>
+          Developed an ML-based recommendation system for an online retail platform to provide personalized recommendations to customers, optimizing shopping cart value. To recommend the items, utilized Levenshtein similarity and FuzzyWuzzy process library.
+        </p>
+        <a href="https://github.com/SaiKrishna-1857/Data-Preparation-Market-Basket-Analysis" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a>
+      </div>
+
+      <div className={styles.projectCard}>
+        <img src={project9Image} alt="Cache Simulator" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Cache Simulator</h3>
+        <p className={styles.projectDescription}>
+          Optimized L1 cache sizes (1KB-1MB) and associativity in JAVA, reducing miss rate by 45% and improving access time by 30%. Identified Optimal Replacement as the most efficient policy for a 32KB cache, achieving a 2.869 AAT.        
+        </p>
+        <a href="https://github.com/SaiKrishna-1857/Cache-Simulator" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a>
+      </div>
+
+      <div className={styles.projectCard}>
+        <img src={project10Image} alt="Release Process Automation" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Release Process Automation</h3>
+        <p className={styles.projectDescription}>
+          Streamlined the CI/CD pipeline in Jenkins, automatically notifying stakeholders and managing deployments in environments, including migrations. This led to a 90% decrease in manual tasks and doubled daily deployments. 
+        </p>
+        {/* <a href="https://github.com/SaiKrishna-1857/Cache-Simulator" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a> */}
+      </div>
+
+      <div className={styles.projectCard}>
+        <img src={project11Image} alt="Root Cause Analysis" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Root Cause Analysis(RCA) Report Analyser</h3>
+        <p className={styles.projectDescription}>
+          Architected methods to analyse failures using failure messages, past records, job names, and test case IDs. Compiling data from 61 Jenkins jobs into a detailed Google Sheet, streamlined the identification of defects in deployments        
+        </p>
+        {/* <a href="https://github.com/SaiKrishna-1857/Cache-Simulator" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a> */}
+      </div>
+
+      <div className={styles.projectCard}>
+        <img src={project13Image} alt="Automated CI" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Automated CI for PRs</h3>
+        <p className={styles.projectDescription}>
+          Built a feature to improve transparency in quality checks for each PR, covering evaluations, migration, and Docker image checks. This integration offers clear insights for managers and tech architects, accelerating production deployment.        
+        </p>
+        {/* <a href="https://github.com/SaiKrishna-1857/Cache-Simulator" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a> */}
+      </div>
+
+      <div className={styles.projectCard}>
+        <img src={project12Image} alt="Automated Coverage Report Organizer" className={styles.projectImage} />
+        <h3 className={styles.projectTitle}>Automated Coverage Report Organizer and Analyser</h3>
+        <p className={styles.projectDescription}>
+          Developed a method to sort RSpec reports by squad title and automated bug assignment from pull request results. Enhanced security and efficiency by linking AWS S3 with Jenkins and a Ruby script.       
+        </p>
+        {/* <a href="https://github.com/SaiKrishna-1857/Cache-Simulator" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+          GitHub
+        </a> */}
+      </div>
+
     </div>
   );
 }
