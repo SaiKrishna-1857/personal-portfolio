@@ -6,7 +6,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
-import GetInTouch from "./components/AboutMe";
+import GetInTouch from "./components/GetInTouch";
 
 function App() {
   return (
