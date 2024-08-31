@@ -32,7 +32,7 @@ function Projects() {
         <img src={project2Image} alt="CI Score" className={styles.projectImage} />
         <h3 className={styles.projectTitle}>CI-Score</h3>
         <p className={styles.projectDescription}>
-          Programmed a Carbon Intensity Calculator adhering to IRS guidelines for 45Z and 40B tax credits, leveraging React, Django and GraphQL to provide precise recommendations for farmers, thereby optimizing tax credit eligibility and boosting revenue by 40%. Note: Development is in Progress, Mobile version is available to the public. 
+          Programmed a Carbon Intensity Calculator adhering to IRS guidelines for 45Z and 40B tax credits, leveraging React, Django and GraphQL to provide precise recommendations for farmers, thereby optimizing tax credit eligibility and boosting revenue by 40%. Note: Development is in Progress, Mobile version is in prod. 
         </p>
         <a href="https://ciscore.agwise.io/" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
           View my Work
