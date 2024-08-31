@@ -23,6 +23,8 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    font-family: Open Sans;
+    font-size: 17px;
 }
 
 .projectCard:hover {

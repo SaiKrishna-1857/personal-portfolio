@@ -1,44 +1,62 @@
 .aboutContainer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px 20px;
-    color: #ffffff;
-    background-color: #1b1b1b;
-    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+}
+
+.leftColumn, .rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutSection, .hobbiesSection, .skillsSection, .certificationsSection {
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #292929;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Open Sans;
 }
 
-.aboutSection, .interestsSection, .skillsSection, .hobbiesSection, .certificationsSection {
-    margin-bottom: 40px;
+.aboutSection:hover, .hobbiesSection:hover, .skillsSection:hover, .certificationsSection:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.aboutSection h2, .interestsSection h2, .skillsSection h2, .hobbiesSection h2, .certificationsSection h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
+h2 {
+    font-size: 1.8em;
     color: #6c63ff;
-    text-align: center;
+    margin-bottom: 15px;
 }
 
-.aboutDescription, .interestsDescription {
+.aboutDescription {
     font-size: 1.2em;
     line-height: 1.6;
+    color: #eeeeee;
     text-align: justify;
-    color: #cccccc;
 }
 
 .skillsList, .hobbiesList, .certificationsList {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #cccccc;
 }
 
 .skillsList li, .hobbiesList li, .certificationsList li {
     background-color: #333;
-    margin: 10px 0;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 1.1em;
     color: #ffffff;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skillsList li:hover, .hobbiesList li:hover, .certificationsList li:hover {
@@ -46,6 +64,34 @@
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.skillsSection, .hobbiesSection, .certificationsSection {
-    text-align: left;
+.certificationLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.externalLinkIcon {
+    margin-left: 8px;
+    color: #6c63ff;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutContainer {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .aboutDescription {
+        font-size: 1em;
+    }
+
+    .skillsList li, .hobbiesList li, .certificationsList li {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
 }
