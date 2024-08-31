@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.3fcee45f.css",
-    "main.js": "/personal-portfolio/static/js/main.51fc4342.js",
+    "main.js": "/personal-portfolio/static/js/main.9dd4e8bd.js",
     "static/media/profile-picture.png": "/personal-portfolio/static/media/profile-picture.9ca472e7ca46b0648e97.png",
     "static/media/chatBot.png": "/personal-portfolio/static/media/chatBot.cdd621e160406a63aa42.png",
     "static/media/foliar.png": "/personal-portfolio/static/media/foliar.9550aeafcfa267766b8c.png",
@@ -20,10 +20,10 @@
     "static/media/freshworks-logo-white.png": "/personal-portfolio/static/media/freshworks-logo-white.ec846aefc506cf874829.png",
     "index.html": "/personal-portfolio/index.html",
     "main.3fcee45f.css.map": "/personal-portfolio/static/css/main.3fcee45f.css.map",
-    "main.51fc4342.js.map": "/personal-portfolio/static/js/main.51fc4342.js.map"
+    "main.9dd4e8bd.js.map": "/personal-portfolio/static/js/main.9dd4e8bd.js.map"
   },
   "entrypoints": [
     "static/css/main.3fcee45f.css",
-    "static/js/main.51fc4342.js"
+    "static/js/main.9dd4e8bd.js"
   ]
 }
