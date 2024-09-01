@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from '../PersonalPortfolio.module.css';
 import resumeFile from '../assets/SaiKrishna-Sangeetha-Resume.pdf';
 
@@ -8,25 +8,75 @@ function TopNav() {
     <nav className={styles.topNav}>
       <ul className={styles.topMenu}>
         <li className={styles.menuItem}>
-          <Link to="/" className={styles.navButton}>Home</Link>
+          <NavLink
+            exact="true"
+            to="/"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            Home
+          </NavLink>
         </li>
         <li className={styles.menuItem}>
-          <Link to="/about-me" className={styles.navButton}>About Me</Link>
+          <NavLink
+            to="/about-me"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            About Me
+          </NavLink>
         </li>
         <li className={styles.menuItem}>
-          <Link to="/education" className={styles.navButton}>Education</Link>
+          <NavLink
+            to="/education"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            Education
+          </NavLink>
         </li>
         <li className={styles.menuItem}>
-          <Link to="/work-experience" className={styles.navButton}>Work Experience</Link>
+          <NavLink
+            to="/work-experience"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            Work Experience
+          </NavLink>
         </li>
         <li className={styles.menuItem}>
-          <Link to="/projects" className={styles.navButton}>Projects</Link>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            Projects
+          </NavLink>
         </li>
         <li className={styles.menuItem}>
-          <a href={resumeFile} target="_blank" rel="noopener noreferrer"  className={styles.navButton}>Resume</a>
+          <a
+            href={resumeFile}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.navButton}
+          >
+            Resume
+          </a>
         </li>
         <li className={styles.menuItem}>
-          <Link to="/get-in-touch" className={styles.navButton}>Get In Touch</Link>
+          <NavLink
+            to="/get-in-touch"
+            className={({ isActive }) =>
+              isActive ? `${styles.navButton} ${styles.activeNavButton}` : styles.navButton
+            }
+          >
+            Get In Touch
+          </NavLink>
         </li>
       </ul>
     </nav>

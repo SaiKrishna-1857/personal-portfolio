@@ -103,6 +103,11 @@ html, body {
   color: white;
 }
 
+.activeNavButton {
+  background-color: #4C4A4A;
+  color: white;
+}
+
 @media (max-width: 991px) {
   .topNav {
     max-width: 100%;
