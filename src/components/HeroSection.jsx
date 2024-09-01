@@ -44,7 +44,7 @@ function HeroSection() {
               <a href="https://x.com/SaiKrishna_1857" target="_blank" rel="noopener noreferrer">
                 <FaTwitter />
               </a>
-              <a href="mailto:saikrishna.sangeetha@gmail.com">
+              <a href="mailto:saikrishna.sangeetha@gmail.com" target="_blank" rel="noopener noreferrer">
                 <FaEnvelope />
               </a>
             </div>
