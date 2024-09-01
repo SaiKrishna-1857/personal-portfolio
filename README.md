@@ -57,7 +57,7 @@ Ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/SaiKrishna-1857/personal-portfolio.git
 
-2.	Navigate to the project directory:
+2. Navigate to the project directory:
 
     ```bash
     cd personal-portfolio
@@ -69,12 +69,12 @@ Ensure you have the following installed on your machine:
 
 ### Running Locally
 
-1.	Start the development server:
+1. Start the development server:
 
     ```bash
     npm start
 
-2.	Open your browser and go to http://localhost:3000 to see the application in action.
+2. Open your browser and go to http://localhost:3000 to see the application in action.
 
 ### Customization
 
@@ -95,7 +95,7 @@ This portfolio is set up to be deployed to GitHub Pages.
 Build the project:
 1. Using npm:
 	```bash
-    	npm run build
+ 	npm run build
 2. Or using Yarn:
 	```bash
 	yarn build
