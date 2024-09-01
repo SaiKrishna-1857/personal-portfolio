@@ -92,9 +92,9 @@ If you want to add new sections (e.g., Awards, Testimonials):
 
 This portfolio is set up to be deployed to GitHub Pages.
 
-1. Build the project:
-Using npm:
-    	```bash
+Build the project:
+1. Using npm:
+	```bash
     	npm run build
 2. Or using Yarn:
 	```bash
