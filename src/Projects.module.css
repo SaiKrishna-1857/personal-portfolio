@@ -68,3 +68,87 @@
 .projectButton:hover {
     background-color: #5a54d2;
 }
+
+/* Large desktops (1200px and up) */
+@media (min-width: 1200px) {
+    .projectCard {
+        width: 300px;
+        height: 500px;
+    }
+}
+
+/* Laptops (992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .projectsContainer {
+        gap: 25px;
+        padding: 40px 15px 15px;
+    }
+    
+    .projectCard {
+        width: 280px;
+        height: 480px;
+    }
+
+    .projectTitle {
+        font-size: 1.4em;
+    }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .projectsContainer {
+        gap: 20px;
+        padding: 30px 10px 10px;
+    }
+
+    .projectCard {
+        width: 260px;
+        height: 460px;
+    }
+
+    .projectTitle {
+        font-size: 1.3em;
+    }
+}
+
+/* Mobile Devices (Landscape, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .projectsContainer {
+        gap: 15px;
+        padding: 30px 10px 10px;
+    }
+
+    .projectCard {
+        width: 240px;
+        height: 440px;
+    }
+
+    .projectTitle {
+        font-size: 1.2em;
+    }
+}
+
+/* Mobile Devices (Portrait, less than 576px) */
+@media (max-width: 575.98px) {
+    .projectsContainer {
+        gap: 10px;
+        padding: 20px 10px 10px;
+    }
+
+    .projectCard {
+        width: 220px;
+        height: 420px;
+    }
+
+    .projectTitle {
+        font-size: 1.1em;
+    }
+
+    .projectDescription {
+        font-size: 0.9em;
+    }
+
+    .projectButton {
+        padding: 8px 15px;
+    }
+}

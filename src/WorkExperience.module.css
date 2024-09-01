@@ -4,9 +4,9 @@
     margin: auto;
     padding: 30px;
     margin-top: 60px;
-  }
-  
-  .timelineItem {
+}
+
+.timelineItem {
     display: flex;
     align-items: center;
     margin: 15px 0;
@@ -18,94 +18,313 @@
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-left: 60px;
-    font-family:  Open Sans;
-  }
-  
-  .timelineItem:hover {
+    font-family: Open Sans;
+}
+
+.timelineItem:hover {
     transform: translateY(-10px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .agwiseLogoWrapper {
+}
+
+.agwiseLogoWrapper {
     position: absolute;
     left: -140px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-  }
+}
 
-  .ucfLogoWrapper {
+.ucfLogoWrapper {
     position: absolute;
     left: -135px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-  }
+}
 
-  .freshworksLogoWrapper {
+.freshworksLogoWrapper {
     position: absolute;
     left: -150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-  }
-  
-  .agwiseLogo {
+}
+
+.agwiseLogo {
     width: 100px;
     height: auto;
     object-fit: contain;
     margin-bottom: 10px;
-  }
+}
 
-  .ucfLogo {
+.ucfLogo {
     width: 90px;
     height: auto;
     object-fit: contain;
     margin-bottom: 10px;
-  }
+}
 
-  .freshworksLogo {
+.freshworksLogo {
     width: 140px;
     height: auto;
     object-fit: contain;
     margin-bottom: 10px;
-  }
-  
-  .agwiseLocation {
+}
+
+.agwiseLocation {
     font-size: 0.9em;
     color: #999;
     text-align: center;
     margin-top: -30px;
-  }
+}
 
-  .location {
+.location {
     font-size: 0.9em;
     color: #999;
     text-align: center;
-  }
-  
-  .experienceDetails {
+}
+
+.experienceDetails {
     margin-left: 40px;
     flex: 1;
-  }
-  
-  .jobTitle {
+}
+
+.jobTitle {
     font-size: 1.5em;
     font-weight: bold;
     color: #ffffff;
-  }
-  
-  .companyName {
+}
+
+.companyName {
     font-size: 1.2em;
     color: #ddd;
-  }
-  
-  .jobDescription {
+}
+
+.jobDescription {
     margin: 10px 0;
     font-size: 1em;
     color: #ccc;
+}
+
+/* Large desktops (1200px and up) */
+@media (min-width: 1200px) {
+  .timelineItem {
+      margin-left: 60px;
   }
-  
+
+  .agwiseLogoWrapper {
+      left: -140px;
+  }
+
+  .ucfLogoWrapper {
+      left: -135px;
+  }
+
+  .freshworksLogoWrapper {
+      left: -150px;
+  }
+
+  .agwiseLogo {
+      width: 100px;
+  }
+
+  .ucfLogo {
+      width: 90px;
+  }
+
+  .freshworksLogo {
+      width: 140px;
+  }
+}
+
+/* Laptops (992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .timeline {
+      max-width: 900px;
+      padding: 20px;
+  }
+
+  .timelineItem {
+      margin-left: 50px;
+  }
+
+  .agwiseLogoWrapper {
+      left: -130px;
+  }
+
+  .ucfLogoWrapper {
+      left: -125px;
+  }
+
+  .freshworksLogoWrapper {
+      left: -140px;
+  }
+
+  .agwiseLogo {
+      width: 90px;
+  }
+
+  .ucfLogo {
+      width: 80px;
+  }
+
+  .freshworksLogo {
+      width: 130px;
+  }
+
+  .jobTitle {
+      font-size: 1.4em;
+  }
+
+  .companyName {
+      font-size: 1.1em;
+  }
+
+  .jobDescription {
+      font-size: 0.95em;
+  }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .timeline {
+      max-width: 700px;
+      padding: 15px;
+  }
+
+  .timelineItem {
+      margin-left: 40px;
+  }
+
+  .agwiseLogoWrapper {
+      left: -110px;
+  }
+
+  .ucfLogoWrapper {
+      left: -105px;
+  }
+
+  .freshworksLogoWrapper {
+      left: -120px;
+  }
+
+  .agwiseLogo {
+      width: 80px;
+  }
+
+  .ucfLogo {
+      width: 70px;
+  }
+
+  .freshworksLogo {
+      width: 110px;
+  }
+
+  .jobTitle {
+      font-size: 1.3em;
+  }
+
+  .companyName {
+      font-size: 1em;
+  }
+
+  .jobDescription {
+      font-size: 0.9em;
+  }
+}
+
+/* Mobile Devices (Landscape, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .timeline {
+      max-width: 500px;
+      padding: 10px;
+  }
+
+  .timelineItem {
+      margin-left: 30px;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .agwiseLogoWrapper,
+  .ucfLogoWrapper,
+  .freshworksLogoWrapper {
+      position: static;
+      margin: 0 auto 10px auto;
+  }
+
+  .agwiseLogo {
+      width: 70px;
+  }
+
+  .ucfLogo {
+      width: 60px;
+  }
+
+  .freshworksLogo {
+      width: 100px;
+  }
+
+  .experienceDetails {
+      margin-left: 0;
+  }
+
+  .jobTitle {
+      font-size: 1.2em;
+  }
+
+  .companyName {
+      font-size: 0.9em;
+  }
+
+  .jobDescription {
+      font-size: 0.85em;
+  }
+}
+
+/* Mobile Devices (Portrait, less than 576px) */
+@media (max-width: 575.98px) {
+  .timeline {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  .timelineItem {
+      margin-left: 0;
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .agwiseLogoWrapper,
+  .ucfLogoWrapper,
+  .freshworksLogoWrapper {
+      position: static;
+      margin: 0 auto 10px auto;
+  }
+
+  .agwiseLogo,
+  .ucfLogo,
+  .freshworksLogo {
+      width: 60px;
+  }
+
+  .experienceDetails {
+      margin-left: 0;
+  }
+
+  .jobTitle {
+      font-size: 1.1em;
+  }
+
+  .companyName {
+      font-size: 0.85em;
+  }
+
+  .jobDescription {
+      font-size: 0.8em;
+  }
+}

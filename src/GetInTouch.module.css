@@ -99,6 +99,36 @@ h2 {
     margin-top: 120px;
 }
 
+/* Responsive Design for 1024px */
+@media screen and (max-width: 1024px) {
+    .contactContainer {
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .socialIcons a {
+        font-size: 1.4em;
+    }
+
+    .contactForm input, .contactForm textarea {
+        padding: 9px;
+        font-size: 0.95em;
+    }
+
+    .contactForm button {
+        font-size: 1.1em;
+        padding: 11px;
+    }
+
+    .wordCount, .errorAlert, .successAlert {
+        font-size: 0.85em;
+    }
+}
+
+/* 768px Media Query */
 @media screen and (max-width: 768px) {
     .contactContainer {
         max-width: 90%;
@@ -106,5 +136,82 @@ h2 {
 
     h2 {
         font-size: 1.3em;
+    }
+
+    .socialIcons a {
+        font-size: 1.3em;
+    }
+
+    .contactForm input, .contactForm textarea {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .contactForm button {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .wordCount, .errorAlert, .successAlert {
+        font-size: 0.8em;
+    }
+}
+
+/* 576px Media Query */
+@media screen and (max-width: 576px) {
+    .contactContainer {
+        max-width: 95%;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .socialIcons a {
+        font-size: 1.2em;
+    }
+
+    .contactForm input, .contactForm textarea {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+
+    .contactForm button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .wordCount, .errorAlert, .successAlert {
+        font-size: 0.7em;
+    }
+}
+
+/* 400px Media Query */
+@media screen and (max-width: 400px) {
+    .contactContainer {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .socialIcons a {
+        font-size: 1.1em;
+    }
+
+    .contactForm input, .contactForm textarea {
+        padding: 5px;
+        font-size: 0.75em;
+    }
+
+    .contactForm button {
+        font-size: 0.8em;
+        padding: 6px;
+    }
+
+    .wordCount, .errorAlert, .successAlert {
+        font-size: 0.6em;
     }
 }

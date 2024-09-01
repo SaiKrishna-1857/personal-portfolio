@@ -89,3 +89,115 @@
     margin: 5px 0;
   }
   
+  @media screen and (max-width: 1024px) {
+    .educationContainer {
+        max-width: 90%;
+    }
+
+    .educationItem {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .logoUcfWrapper, .logoSastraWrapper {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .logoUcf, .logoSastra {
+        width: 100px;
+    }
+
+    .universityName {
+        font-size: 1.5em;
+    }
+
+    .details {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .educationContainer {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .educationItem {
+        min-height: 180px;
+        padding: 15px;
+    }
+
+    .logoUcf, .logoSastra {
+        width: 90px;
+    }
+
+    .universityName {
+        font-size: 1.4em;
+    }
+
+    .details {
+        font-size: 0.95em;
+    }
+
+    .additionalInfo {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .educationContainer {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .educationItem {
+        min-height: 160px;
+        padding: 10px;
+    }
+
+    .logoUcf, .logoSastra {
+        width: 80px;
+    }
+
+    .universityName {
+        font-size: 1.3em;
+    }
+
+    .details {
+        font-size: 0.9em;
+    }
+
+    .additionalInfo {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .educationContainer {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .educationItem {
+        min-height: 150px;
+        padding: 8px;
+    }
+
+    .logoUcf, .logoSastra {
+        width: 70px;
+    }
+
+    .universityName {
+        font-size: 1.2em;
+    }
+
+    .details {
+        font-size: 0.85em;
+    }
+
+    .additionalInfo {
+        font-size: 0.8em;
+    }
+}
