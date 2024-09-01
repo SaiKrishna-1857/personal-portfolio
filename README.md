@@ -10,8 +10,6 @@ Welcome to my personal portfolio website! This project showcases my skills, work
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About
