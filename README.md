@@ -93,23 +93,23 @@ If you want to add new sections (e.g., Awards, Testimonials):
 This portfolio is set up to be deployed to GitHub Pages.
 
 1.	Build the project:
-    Using npm:
+Using npm:
     ```bash
     npm run build
 
-    Or using Yarn:
+Or using Yarn:
     ```bash
     yarn build
 
 2.	Deploy to GitHub Pages:
-    Using npm:
+Using npm:
     ```bash
     npm run deploy
-    Or using yarn:
+Or using yarn:
     ```bash
     yarn deploy
 
-The website will be available at https://<your-username>.github.io/personal-portfolio/.
+The website will be available at https://SaiKrishna-1857.github.io/personal-portfolio/.
 
 ## Customization
 
