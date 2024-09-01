@@ -2,6 +2,7 @@ import React from "react";
 import styles from '../PersonalPortfolio.module.css';
 import profilePicture from '../assets/profile-picture.png';
 import resumeFile from '../assets/SaiKrishna-Sangeetha-Resume.pdf';
+import { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 function HeroSection() {
   return (
@@ -23,16 +24,32 @@ function HeroSection() {
           </div>
         </div>
         <div className={styles.heroImageColumn}>
-          <div>
+          <div className={styles.imageAndIcons}>
             <img 
               loading="lazy" 
               src={profilePicture}
               className={styles.heroImage} 
               alt="Portrait of Sai Krishna" 
             />
+            <div className={styles.socialIcons}>
+              <a href="https://www.linkedin.com/in/saikrishnas/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
+              </a>
+              <a href="https://github.com/SaiKrishna-1857" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+              </a>
+              <a href="https://www.instagram.com/saikrishna_1857/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+              <a href="https://x.com/SaiKrishna_1857" target="_blank" rel="noopener noreferrer">
+                <FaTwitter />
+              </a>
+              <a href="mailto:saikrishna.sangeetha@gmail.com">
+                <FaEnvelope />
+              </a>
+            </div>
           </div>
         </div>
-        
       </div>
     </section>
   );

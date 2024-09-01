@@ -9,7 +9,10 @@ function AboutMe() {
                 <div className={styles.aboutSection}>
                     <h2>Hello! I'm Sai Krishna Sangeetha,</h2>
                     <p className={styles.aboutDescription}>
-                        A passionate Full Stack Developer with experience in building scalable web applications. My journey in tech started with a fascination for how things work, leading me to pursue a Master's in Computer Science. I'm always eager to learn and experiment with new technologies. Apart from tech, I enjoy watching TV Shows, Cooking, Traveling, and playing outdoor sports, particularly Cricket or Badminton.
+                        A passionate Full Stack Developer with experience in building scalable web applications. 
+                        My journey in tech started with a fascination for how things work, leading me to pursue a Master's in Computer Science. 
+                        I'm always eager to learn and experiment with new technologies. 
+                        Apart from tech, I enjoy watching TV Shows, Cooking, Traveling, and playing outdoor sports, particularly Cricket or Badminton.
                     </p>
                 </div>
 

@@ -56,12 +56,12 @@ html, body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(100% - 260px);
+  width: 100%;
   background-color: #1b1b1b;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 40px;
+  justify-content: center;
+  padding: 0;
   z-index: 1000;
   border-radius: 0 0 8px 8px;
   box-sizing: border-box;
@@ -71,22 +71,25 @@ html, body {
 
 .topMenu {
   display: flex;
-  align-items: stretch; 
-  gap: 20px;
-  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: border-box;
 }
 
 .menuItem {
   display: flex;
   align-items: center;
   height: 100%;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .navButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
+  display: block;
+  width: 100%;
+  padding: 20px 0;
   background-color: transparent;
   color: #9c9c9c;
   font-size: 16px;
@@ -94,7 +97,6 @@ html, body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 0;
-  height: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -110,17 +112,17 @@ html, body {
 
 @media (max-width: 991px) {
   .topNav {
-    max-width: 100%;
-    padding: 0 20px;
     height: 60px;
+    padding: 0 20px;
+  }
+
+  .topMenu {
+    padding: 0 20px;
   }
 
   .navButton {
     font-size: 14px;
-  }
-
-  .menuItem {
-    white-space: initial;
+    padding: 10px 0;
   }
 }
 
@@ -299,6 +301,28 @@ html, body {
   .heroImage {
     margin-top: 32px;
   }
+}
+
+.imageAndIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socialIcons a {
+  color: #ffffff;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #6c63ff;
 }
 
 .workedWith {
