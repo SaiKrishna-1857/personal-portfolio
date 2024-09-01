@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.3fcee45f.css",
-    "main.js": "/personal-portfolio/static/js/main.9dd4e8bd.js",
+    "main.css": "/personal-portfolio/static/css/main.25bef172.css",
+    "main.js": "/personal-portfolio/static/js/main.95a77682.js",
     "static/media/profile-picture.png": "/personal-portfolio/static/media/profile-picture.9ca472e7ca46b0648e97.png",
     "static/media/chatBot.png": "/personal-portfolio/static/media/chatBot.cdd621e160406a63aa42.png",
     "static/media/foliar.png": "/personal-portfolio/static/media/foliar.9550aeafcfa267766b8c.png",
@@ -19,11 +19,11 @@
     "static/media/haneyAI.png": "/personal-portfolio/static/media/haneyAI.d67c5ccc94dda3b9ab41.png",
     "static/media/freshworks-logo-white.png": "/personal-portfolio/static/media/freshworks-logo-white.ec846aefc506cf874829.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.3fcee45f.css.map": "/personal-portfolio/static/css/main.3fcee45f.css.map",
-    "main.9dd4e8bd.js.map": "/personal-portfolio/static/js/main.9dd4e8bd.js.map"
+    "main.25bef172.css.map": "/personal-portfolio/static/css/main.25bef172.css.map",
+    "main.95a77682.js.map": "/personal-portfolio/static/js/main.95a77682.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fcee45f.css",
-    "static/js/main.9dd4e8bd.js"
+    "static/css/main.25bef172.css",
+    "static/js/main.95a77682.js"
   ]
 }
