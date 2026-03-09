@@ -1,29 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.15fe6331.css",
-    "main.js": "/personal-portfolio/static/js/main.3f9625b2.js",
-    "static/media/profile-picture.png": "/personal-portfolio/static/media/profile-picture.9ca472e7ca46b0648e97.png",
-    "static/media/chatBot.png": "/personal-portfolio/static/media/chatBot.593cf231d1e9ed536976.png",
-    "static/media/foliar.png": "/personal-portfolio/static/media/foliar.9550aeafcfa267766b8c.png",
-    "static/media/automated_report_covergae.png": "/personal-portfolio/static/media/automated_report_covergae.825bea11a06903b0b621.png",
-    "static/media/automated_ci.png": "/personal-portfolio/static/media/automated_ci.7074b6e6a75bbd98140d.png",
+    "main.css": "/personal-portfolio/static/css/main.18775b4e.css",
+    "main.js": "/personal-portfolio/static/js/main.cd8fabc9.js",
+    "static/media/profilePicture.jpg": "/personal-portfolio/static/media/profilePicture.61c84cbf62cd52dcccca.jpg",
+    "static/media/ChatBot.png": "/personal-portfolio/static/media/ChatBot.593cf231d1e9ed536976.png",
     "static/media/deep-nn.png": "/personal-portfolio/static/media/deep-nn.2ad7734311131c2cbff8.png",
-    "static/media/SaiKrishna-Sangeetha-Resume.pdf": "/personal-portfolio/static/media/SaiKrishna-Sangeetha-Resume.eeda6ab3967446fe600b.pdf",
-    "static/media/release-process-automation.png": "/personal-portfolio/static/media/release-process-automation.3b9753eff96bccb5193e.png",
+    "static/media/SaiKrishna-Sangeetha-Resume.pdf": "/personal-portfolio/static/media/SaiKrishna-Sangeetha-Resume.d0446e31fb99ad75da57.pdf",
     "static/media/agwise-logo.png": "/personal-portfolio/static/media/agwise-logo.395f7348b4d64dcdb719.png",
-    "static/media/ci-score.png": "/personal-portfolio/static/media/ci-score.5a5c19c68467ee497691.png",
     "static/media/ucf-main-logo.png": "/personal-portfolio/static/media/ucf-main-logo.0c648a15bcb7f90fb51d.png",
     "static/media/sastra-logo.png": "/personal-portfolio/static/media/sastra-logo.f409d7f23a3368a68645.png",
-    "static/media/RCA-report.png": "/personal-portfolio/static/media/RCA-report.77af76916e8740f00b76.png",
-    "static/media/ucf-logo.png": "/personal-portfolio/static/media/ucf-logo.73d39fa56eb5bb27832f.png",
-    "static/media/haneyAI.png": "/personal-portfolio/static/media/haneyAI.d67c5ccc94dda3b9ab41.png",
     "static/media/freshworks-logo-white.png": "/personal-portfolio/static/media/freshworks-logo-white.ec846aefc506cf874829.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.15fe6331.css.map": "/personal-portfolio/static/css/main.15fe6331.css.map",
-    "main.3f9625b2.js.map": "/personal-portfolio/static/js/main.3f9625b2.js.map"
+    "main.18775b4e.css.map": "/personal-portfolio/static/css/main.18775b4e.css.map",
+    "main.cd8fabc9.js.map": "/personal-portfolio/static/js/main.cd8fabc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.15fe6331.css",
-    "static/js/main.3f9625b2.js"
+    "static/css/main.18775b4e.css",
+    "static/js/main.cd8fabc9.js"
   ]
 }
