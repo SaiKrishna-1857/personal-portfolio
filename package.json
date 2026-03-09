@@ -41,7 +41,12 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.9.3"
   },
   "homepage": "https://SaiKrishna-1857.github.io/personal-portfolio"
 }

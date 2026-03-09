@@ -145,3 +145,5 @@ public/
 
 # Ignore the .next directory for Next.js
 .next/
+.cursor/
+.codex/
