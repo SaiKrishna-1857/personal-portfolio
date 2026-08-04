@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.18775b4e.css",
-    "main.js": "/personal-portfolio/static/js/main.cd8fabc9.js",
+    "main.js": "/personal-portfolio/static/js/main.27e04b5a.js",
     "static/media/profilePicture.jpg": "/personal-portfolio/static/media/profilePicture.61c84cbf62cd52dcccca.jpg",
     "static/media/ChatBot.png": "/personal-portfolio/static/media/ChatBot.593cf231d1e9ed536976.png",
     "static/media/deep-nn.png": "/personal-portfolio/static/media/deep-nn.2ad7734311131c2cbff8.png",
-    "static/media/SaiKrishna-Sangeetha-Resume.pdf": "/personal-portfolio/static/media/SaiKrishna-Sangeetha-Resume.d0446e31fb99ad75da57.pdf",
-    "static/media/agwise-logo.png": "/personal-portfolio/static/media/agwise-logo.395f7348b4d64dcdb719.png",
+    "static/media/SaiKrishna-Sangeetha-Resume.pdf": "/personal-portfolio/static/media/SaiKrishna-Sangeetha-Resume.7c1ded57466afc41f5fa.pdf",
     "static/media/ucf-main-logo.png": "/personal-portfolio/static/media/ucf-main-logo.0c648a15bcb7f90fb51d.png",
+    "static/media/agwise-logo.png": "/personal-portfolio/static/media/agwise-logo.5e3eb994419ecb911f01.png",
     "static/media/sastra-logo.png": "/personal-portfolio/static/media/sastra-logo.f409d7f23a3368a68645.png",
-    "static/media/freshworks-logo-white.png": "/personal-portfolio/static/media/freshworks-logo-white.ec846aefc506cf874829.png",
+    "static/media/freshworks-logo-white.png": "/personal-portfolio/static/media/freshworks-logo-white.1670e120b4339a6e0f17.png",
     "index.html": "/personal-portfolio/index.html",
     "main.18775b4e.css.map": "/personal-portfolio/static/css/main.18775b4e.css.map",
-    "main.cd8fabc9.js.map": "/personal-portfolio/static/js/main.cd8fabc9.js.map"
+    "main.27e04b5a.js.map": "/personal-portfolio/static/js/main.27e04b5a.js.map"
   },
   "entrypoints": [
     "static/css/main.18775b4e.css",
-    "static/js/main.cd8fabc9.js"
+    "static/js/main.27e04b5a.js"
   ]
 }
