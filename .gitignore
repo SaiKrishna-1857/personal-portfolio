@@ -77,7 +77,6 @@ build/
 
 # Gatsby files
 .cache/
-public/
 
 # Sapper build / dev output
 __sapper__/
@@ -101,9 +100,6 @@ media/
 # Flask stuff:
 instance/
 .webassets-cache
-
-# Hugo stuff:
-public/
 
 # Temporary files
 *.swp
@@ -139,9 +135,6 @@ $RECYCLE.BIN/
 
 # Ignore this if you're using a different IDE
 .idea/
-
-# Ignore build artifacts
-public/
 
 # Ignore the .next directory for Next.js
 .next/
