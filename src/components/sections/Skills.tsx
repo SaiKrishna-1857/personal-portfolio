@@ -12,7 +12,7 @@ function Skills({ categories }: SkillsProps) {
       <Reveal>
         <h2 className="section-title text-2xl font-bold text-slate-900 sm:text-3xl dark:text-white">Core Skills</h2>
         <p className="mt-4 text-sm text-slate-600 dark:text-slate-300">
-          Highlighting core strengths most relevant to senior full-stack/platform roles. Full skill inventory is in the resume.
+          Highlighting core strengths most relevant to full-stack/platform roles. Full skill inventory is in the resume.
         </p>
       </Reveal>
       <div className="mt-6 grid auto-rows-fr gap-4 sm:grid-cols-2 xl:grid-cols-3">

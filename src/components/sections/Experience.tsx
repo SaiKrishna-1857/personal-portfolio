@@ -40,7 +40,7 @@ function Experience({ items }: ExperienceProps) {
                   <img
                     src={experience.logo}
                     alt={`${experience.company} logo`}
-                    className="h-10 w-10 rounded-lg border border-slate-200 bg-white object-contain p-1.5 dark:border-white/10 dark:bg-slate-800"
+                    className="h-10 w-10 rounded-lg border border-slate-200 bg-white object-contain p-1.5 dark:border-white/10"
                   />
                   <div className="min-w-0 flex-1">
                     <h3 className="text-sm font-semibold text-slate-900 dark:text-white">{experience.title}</h3>
@@ -111,7 +111,7 @@ function Experience({ items }: ExperienceProps) {
                   <img
                     src={experience.logo}
                     alt={`${experience.company} logo`}
-                    className="h-12 w-12 rounded-lg border border-slate-200 bg-white object-contain p-2 dark:border-white/10 dark:bg-slate-800"
+                    className="h-12 w-12 rounded-lg border border-slate-200 bg-white object-contain p-2 dark:border-white/10"
                   />
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{experience.title}</h3>

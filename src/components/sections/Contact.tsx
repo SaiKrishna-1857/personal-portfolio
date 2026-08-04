@@ -15,7 +15,7 @@ function Contact({ resumeFile }: ContactProps) {
       <Reveal>
         <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl dark:text-white">Let&apos;s Build Something Impactful</h2>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base dark:text-slate-300">
-          Open to senior full-stack, platform engineering, and distributed systems opportunities.
+          Open to full-stack, platform engineering, and distributed systems opportunities.
           <br />
           I am
           especially interested in product engineering, cloud architecture, and AI-driven platform teams.

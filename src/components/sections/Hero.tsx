@@ -43,13 +43,13 @@ function Hero({ profileImage }: HeroProps) {
     >
       <Reveal className="min-w-0">
         <div className="inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-cyan-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-700 dark:border-cyan-500/30 dark:bg-cyan-500/10 dark:text-cyan-200">
-          Senior Full-Stack Developer
+          Full-Stack Developer
         </div>
         <h1 className="mt-4 break-words text-[clamp(1.12rem,4.2vw,1.95rem)] font-bold leading-[1.15] text-slate-900 dark:text-white">
           Engineering scalable SaaS platforms across React architecture, distributed APIs, and AI-driven observability systems.
         </h1>
         <p className="mt-5 max-w-2xl break-words text-base leading-7 text-slate-600 sm:text-lg dark:text-slate-300">
-          6+ years delivering production systems with React, TypeScript, Django/FastAPI, and AWS.
+          5+ years delivering production systems with React, TypeScript, Django/FastAPI, and AWS.
           I specialize in telemetry platforms, high-throughput pipelines, and resilient multi-tenant architecture.
         </p>
         <div className="mt-5 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300 lg:hidden">
@@ -91,7 +91,7 @@ function Hero({ profileImage }: HeroProps) {
         </div>
         <div className="float-card mt-5 w-full rounded-xl border border-slate-200 bg-white/70 p-4 text-left text-xs dark:border-white/10 dark:bg-slate-900/70">
           <p className="font-mono text-[11px] text-slate-500 dark:text-slate-400">$ current_focus</p>
-          <p className="mt-2 text-sm font-semibold text-slate-900 dark:text-white">Senior Full-Stack Platform Engineering</p>
+          <p className="mt-2 text-sm font-semibold text-slate-900 dark:text-white">Full-Stack Platform Engineering</p>
           <p className="mt-1 break-words text-slate-600 dark:text-slate-300">
             React + TypeScript + Django/FastAPI + OpenTelemetry + Kafka + Elasticsearch + AWS.
           </p>

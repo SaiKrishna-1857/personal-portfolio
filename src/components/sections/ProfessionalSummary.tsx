@@ -15,7 +15,7 @@ function ProfessionalSummary({ summary }: ProfessionalSummaryProps) {
         <Reveal className="h-full">
           <article className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white/90 p-5 dark:border-white/10 dark:bg-slate-900/55">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-700 dark:text-cyan-300">
-              Senior Full-Stack Positioning
+              Full-Stack Positioning
             </p>
             {summary.map((item, index) => (
               <p key={item} className={`text-sm leading-7 text-slate-700 dark:text-slate-300 ${index === 0 ? "mt-3" : "mt-2"}`}>
@@ -33,7 +33,7 @@ function ProfessionalSummary({ summary }: ProfessionalSummaryProps) {
             <ul className="mt-3 space-y-2 text-sm leading-7 text-slate-700 dark:text-slate-300">
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 rounded-full bg-cyan-600 dark:bg-cyan-300" />
-                <span>Senior Full-Stack Developer</span>
+                <span>Full-Stack Developer</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 rounded-full bg-cyan-600 dark:bg-cyan-300" />

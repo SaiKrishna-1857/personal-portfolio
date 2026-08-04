@@ -25,15 +25,15 @@ export const navItems: NavItem[] = [
 ];
 
 export const metrics: MetricItem[] = [
-  { value: "6+", label: "Years of full-stack SaaS engineering experience" },
+  { value: "5+", label: "Years of full-stack SaaS engineering experience" },
   { value: "React + Python", label: "Core stack across frontend architecture and platform APIs" },
   { value: "Distributed Systems", label: "Focus area: observability, async pipelines, and cloud-native delivery" },
 ];
 
 export const professionalSummary: string[] = [
-  "Senior Full-Stack Developer with 6+ years building production SaaS platforms using React, TypeScript, Python (Django/FastAPI), and AWS.",
+  "Full-Stack Developer with 5+ years building production SaaS platforms using React, TypeScript, Python (Django/FastAPI), and AWS.",
   "I lead end-to-end delivery across frontend architecture, backend/platform APIs, and distributed cloud systems for high-scale products.",
-  "Targeting Senior Full-Stack roles where I can drive system design, ship customer-facing features, and own reliability/performance in production.",
+  "Targeting Full-Stack roles where I can drive system design, ship customer-facing features, and own reliability/performance in production.",
 ];
 
 export const skillCategories: SkillCategory[] = [
@@ -99,9 +99,9 @@ export const skillCategories: SkillCategory[] = [
 
 export const experiences: ExperienceItem[] = [
   {
-    company: "Ceburu Systems Inc.",
-    title: "Senior Software Developer",
-    location: "Pleasanton, CA (Remote)",
+    company: "Nova ITHUB Technology & Services LLC (Client: Ceburu Systems Inc.)",
+    title: "Associate Software Developer",
+    location: "Pleasanton, CA (Remote, FL)",
     duration: "Oct 2024 - Present",
     logo: ceburuLogo,
     bullets: [
@@ -117,8 +117,8 @@ export const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: "AgWise LLC",
-    title: "Senior Software Developer",
+    company: "Transparency Wise Technology LLC (Now: AgWise LLC.)",
+    title: "Backend Software Developer",
     location: "St. Petersburg, FL",
     duration: "Mar 2024 - Sep 2024",
     logo: agwiseLogo,
@@ -131,17 +131,6 @@ export const experiences: ExperienceItem[] = [
       "Integrated Stripe and Mapbox for subscription workflows and location-aware analytics.",
       "Implemented Docker/Kubernetes deployments with AWS CodePipeline for reliable zero-downtime releases.",
       "Improved load performance by 25% through query tuning, caching, and state-management optimization.",
-    ],
-  },
-  {
-    company: "University of Central Florida (CECS)",
-    title: "Graduate Research Assistant",
-    location: "Orlando, FL",
-    duration: "Jan 2024 - May 2024",
-    logo: ucfLogo,
-    bullets: [
-      "Built responsive real-time React interfaces with dynamic search and optimized GraphQL data fetching.",
-      "Conducted JML research under Prof. Gary T. Leavens on formal specifications and runtime assertion checking.",
     ],
   },
   {
