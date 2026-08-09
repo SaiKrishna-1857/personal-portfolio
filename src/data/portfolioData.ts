@@ -100,7 +100,7 @@ export const skillCategories: SkillCategory[] = [
 export const experiences: ExperienceItem[] = [
   {
     company: "Nova ITHUB Technology & Services LLC (Client: Ceburu Systems Inc.)",
-    title: "Associate Software Developer",
+    title: "Associate Developer",
     location: "Pleasanton, CA (Remote, FL)",
     duration: "Oct 2024 - Present",
     logo: ceburuLogo,
