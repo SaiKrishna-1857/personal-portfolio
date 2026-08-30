@@ -120,7 +120,7 @@ function Hero({ profileImage }: HeroProps) {
             <FaPhoneAlt />
           </a>
         </div>
-        <p className="mt-4 text-center text-sm text-slate-500 dark:text-slate-400">Tampa Bay, Florida</p>
+        <p className="mt-4 text-center text-sm text-slate-500 dark:text-slate-400">Pinellas Park, FL</p>
         <p className="mt-1 text-center text-sm font-medium text-slate-600 dark:text-slate-300">(689) 250-9414</p>
         <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:justify-center sm:flex-wrap">
           <a
